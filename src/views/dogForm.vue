@@ -134,6 +134,7 @@ export default {
   .selectInfo {
     width: 440px  !important;
     margin-left: -115px  !important;
+    border-radius: 0px !important;
   }
 }
 .selectInfo {
@@ -183,6 +184,12 @@ export default {
 @media (min-width: 320px) and (max-width: 979px) {
   .displayInfo h1 {
     color: #fff;
+    width: 55%;
+    margin-bottom: 60px; 
+  }
+}
+@media (min-width: 320px) and (max-width: 979px) {
+  .displayInfo h2 {
     width: 55%;
     margin-bottom: 60px; 
   }
